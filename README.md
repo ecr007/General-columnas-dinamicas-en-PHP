@@ -22,4 +22,7 @@ for($i = 0; $i < 10; $i++){
  echo "\n<close>";
  ```
  
- Esta en uso en el proyecto tg
+## Striped row
+```
+<tr class="<?=($c++%2==1) ? 'odd' : 'even' ?>">
+```
